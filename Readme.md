@@ -1,6 +1,6 @@
 # WP API Bot 🤖
 
-Sometimes you need 3rd party API data but they won't let you hit their endpoints because CORs. This plugin provides an abstraction around PHP cURL and makes API calls available to both PHP & JS (via WP `admin-ajax.php`).
+Sometimes you need 3rd party API data but they won't let you hit their endpoints via Ajax/XHR because CORs. This plugin provides an abstraction around PHP cURL and makes API calls available to both PHP & JS (via WP `admin-ajax.php`).
 
 ## What the plugin does
 
