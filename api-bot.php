@@ -34,7 +34,7 @@ class API_Bot_Init {
     require_once plugin_dir_path( __FILE__ ) . 'includes/class-curl.php';
 
     // @TODO Reusable custom DB table class
-    // require_once plugin_dir_path( __FILE__ ) . 'includes/class-table.php';
+    require_once plugin_dir_path( __FILE__ ) . 'includes/class-table.php';
 
     // Generic API_Bot creates internal APIs for accessing other APIs via PHP & JS
     require_once plugin_dir_path( __FILE__ ) . 'includes/class-api-bot.php';

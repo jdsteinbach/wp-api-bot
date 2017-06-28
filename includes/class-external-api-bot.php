@@ -81,6 +81,8 @@ class External_API_Bot extends API_Bot
       }
 
       $this->endpoint .= $separators['before'] . implode( $separators['between'], $combined );
+
+      if ( $which == 'route' ) $this->endpoint .= $separators['between'];
     }
 
     return $this;
